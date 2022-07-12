@@ -1,5 +1,5 @@
 import { Col, Container, Image, Modal, Row } from "react-bootstrap";
-import "../main/Modal.css";
+import "../main/modal.css";
 import { NavLink } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 

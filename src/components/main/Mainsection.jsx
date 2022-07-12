@@ -46,47 +46,36 @@ const Mainsection = () => {
     <>
       <Carousel>
         <Carousel.Item className="movie-container">
-       
-        <img
+          <img
             className="d-block w-100 gradient-custom movie-container img-fluid"
             src={img1}
             alt="First slide"
-            
           />
-        
-         
-          <Carousel.Caption >
-          <Container>
-            <Row>
-            <Col xs={12} lg={6} className=" text-start pb-5">
-              <h2 className="title-color">Batman(2022)</h2>
-              <hr className="bg-light"/>
-              <p className="text-fluid d-none d-md-block">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur
-              </p>
+
+          <Carousel.Caption>
+            <Container>
               <Row>
-              <Col className="buton-view"  md={6}  lg={4} style={{paddingBottom:"0.7rem"}}>
-              <Button   variant="outline-light">View More<i class="bi bi-play"></i></Button>
+                <Col xs={12} lg={6} className=" text-start pb-5">
+                  <h2 className="title-color">Batman(2022)</h2>
+                  <hr className="bg-light" />
+                  <p className="text-fluid d-none d-md-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur
+                  </p>
 
-              </Col>
-              <Col  md={6} lg={5}>
-              <Button variant="outline-light">My List <i class="bi bi-plus"></i></Button>
-
-              </Col>
+                  <button
+                    type="button"
+                    class="btn btn-outline-light col-md-4 col-12"
+                  >
+                    View More <i class="bi bi-plus-lg"></i>
+                  </button>
+                </Col>
               </Row>
-             
-              
-              
-            
-            </Col>
-            </Row>
-          </Container>
-           
+            </Container>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -99,37 +88,30 @@ const Mainsection = () => {
           />
 
           <Carousel.Caption>
-          <Container>
-            <Row>
-            <Col xs={12} lg={6} className=" text-start pb-5">
-              <h2 className="title-color">Morbius</h2>
-              <hr className="bg-light"/>
-              <p className="text-fluid d-none d-md-block">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur
-              </p>
+            <Container>
               <Row>
-              <Col  md={6}  lg={4} style={{paddingBottom:"0.7rem"}}>
-              <Button  variant="outline-light">View More<i class="bi bi-play"></i></Button>
-
-              </Col>
-              <Col  md={6} lg={5}>
-              <Button variant="outline-light">My List <i class="bi bi-plus"></i></Button>
-
-              </Col>
+                <Col xs={12} lg={6} className=" text-start pb-5">
+                  <h2 className="title-color">Morbius</h2>
+                  <hr className="bg-light" />
+                  <p className="text-fluid d-none d-md-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-light col-md-4 col-12"
+                  >
+                    View More <i class="bi bi-plus-lg"></i>
+                  </button>
+                </Col>
               </Row>
-            </Col>
-            </Row>
-          </Container>
-          
+            </Container>
           </Carousel.Caption>
         </Carousel.Item>
-
-     
 
         <Carousel.Item className="movie-container">
           <Image
@@ -139,34 +121,29 @@ const Mainsection = () => {
             fluid
           />
           <Carousel.Caption>
-          <Container>
-            <Row>
-            <Col xs={12} lg={6} className=" text-start pb-5">
-              <h2 className="title-color ">Fantastic Animals:</h2>
-              <h4 className="title-color">The secrets of dumbledore</h4>
-              <hr className="bg-light"/>
-              <p className="text-fluid d-none d-md-block">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur
-              </p>
+            <Container>
               <Row>
-              <Col  md={6}  lg={4} style={{paddingBottom:"0.7rem"}}>
-              <Button  variant="outline-light">View More<i class="bi bi-play"></i></Button>
-
-              </Col>
-              <Col  md={6} lg={5}>
-              <Button variant="outline-light">My List <i class="bi bi-plus"></i></Button>
-
-              </Col>
+                <Col xs={12} lg={6} className=" text-start pb-5">
+                  <h2 className="title-color ">Fantastic Animals:</h2>
+                  <h4 className="title-color">The secrets of dumbledore</h4>
+                  <hr className="bg-light" />
+                  <p className="text-fluid d-none d-md-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-light col-md-4 col-12"
+                  >
+                    View More <i class="bi bi-plus-lg"></i>
+                  </button>
+                </Col>
               </Row>
-            </Col>
-            </Row>
-          </Container>
-           
+            </Container>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -178,33 +155,28 @@ const Mainsection = () => {
             fluid
           />
           <Carousel.Caption>
-          <Container>
-           <Row>
-            <Col xs={12} lg={6} className="text-start pb-5">
-              <h2 className="title-color">The Exorcism of God</h2>
-              <hr className="bg-light"/>
-              <p className="text-fluid d-none d-md-block">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur
-              </p>
-              
+            <Container>
               <Row>
-              <Col  md={6}  lg={4} style={{paddingBottom:"0.7rem"}}>
-              <Button  variant="outline-light">View More<i class="bi bi-play"></i></Button>
+                <Col xs={12} lg={6} className="text-start pb-5">
+                  <h2 className="title-color">The Exorcism of God</h2>
+                  <hr className="bg-light" />
+                  <p className="text-fluid d-none d-md-block">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur
+                  </p>
 
-              </Col>
-              <Col  md={6} lg={5}>
-              <Button variant="outline-light">My List <i class="bi bi-plus"></i></Button>
-
-              </Col>
+                  <button
+                    type="button"
+                    class="btn btn-outline-light col-md-4 col-12"
+                  >
+                    View More <i class="bi bi-plus-lg"></i>
+                  </button>
+                </Col>
               </Row>
-             
-            </Col>
-            </Row>
             </Container>
           </Carousel.Caption>
         </Carousel.Item>
